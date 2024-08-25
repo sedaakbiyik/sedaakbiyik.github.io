@@ -395,14 +395,13 @@ mark_old_lavender {
   font-weight: bold; /* Or use another style to highlight the active tab */
 }
 
-
 button {
   padding: 14px 8px;
   margin-top: 0px;
   margin-bottom: 10px;  /* Added to create space between the button and abstract text */
   border: none;
-  background-color: hwb(202 7% 33%);
-  color: #fff;
+  background-color: transparent;
+  color: hwb(202 7% 33%);
   border-radius: 0px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
