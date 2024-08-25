@@ -405,7 +405,7 @@ button {
   border-radius: 0px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
-  font-family: 'Montserrat', sans-serif;  /* Ensure font consistency */
+  font-family: 'Poppins', sans-serif;  /* Ensure font consistency */
   font-size: 12px;  /* Adjust font size if necessary */
 }
 
@@ -417,7 +417,7 @@ button:hover {
 
 
 #abstract, #abstract2, #abstract3, #abstract4 {
-  font-family: 'Montserrat', sans-serif;  /* Ensure font consistency */
+  font-family: 'Poppins', sans-serif;  /* Ensure font consistency */
   font-size: 12px;  /* Adjust font size if necessary */
   margin-top: 3px;
   margin-bottom: 10px;  /* Adds space below the abstract */
