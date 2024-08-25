@@ -6,6 +6,11 @@ body {
   font-weight:320;
 }
 
+/* Ensure the envelope icon is black */
+a[href^="mailto:"] i.fab {
+  color: #000000; /* Set the icon color to black */
+}
+
 h1, h2, h3, h4, h5, h6 {
   color:#222;
   margin:0 0 20px;
