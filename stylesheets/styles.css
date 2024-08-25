@@ -400,21 +400,21 @@ button {
   margin-top: 0px;
   margin-bottom: 10px;  /* Added to create space between the button and abstract text */
   border: none;
-  background-color: transparent;
-  color: hwb(202 7% 33%);
+  background-color: transparent;  /* Make the background transparent */
+  color: hwb(202 7% 33%);  /* Set the text color */
   border-radius: 0px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
   font-family: 'Montserrat', sans-serif;  /* Ensure font consistency */
   font-size: 12px;  /* Adjust font size if necessary */
-
-  
 }
 
+/* Optionally, you can add a hover effect */
 button:hover {
-  background-color: hwb(202 7% 33%);
+  background-color: rgba(0, 0, 0, 0.1);  /* Light background on hover, adjust as needed */
   transform: scale(1.05);
 }
+
 
 #abstract, #abstract2, #abstract3, #abstract4 {
   font-family: 'Montserrat', sans-serif;  /* Ensure font consistency */
