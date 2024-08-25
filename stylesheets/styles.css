@@ -6,10 +6,6 @@ body {
   font-weight:320;
 }
 
-/* Ensure the envelope icon is black */
-a[href^="mailto:"] i.fab {
-  color: #000000; /* Set the icon color to black */
-}
 
 h1, h2, h3, h4, h5, h6 {
   color:#222;
@@ -405,7 +401,7 @@ button {
   margin-bottom: 10px;  /* Added to create space between the button and abstract text */
   border: none;
   background-color: transparent;  /* Make the background transparent */
-  color: hwb(202 7% 33%);  /* Set the text color */
+  color: transparent;  /* Set the text color */
   border-radius: 0px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
