@@ -406,7 +406,7 @@ button {
   border-radius: 0px;
   cursor: pointer;
   transition: transform 0.3s ease;  /* Only transform on hover */
-  font-family: 'Poppins', sans-serif;  /* Ensure font consistency */
+  font-family: 'Poppins';  /* Ensure font consistency */
   font-size: 20px;  /* Adjust font size if necessary */
   text-align: right;  /* Align the text to the right */
   display: block;  /* Make sure the button takes the full width, allowing text to be right-aligned */
