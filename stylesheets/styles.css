@@ -398,20 +398,21 @@ mark_old_lavender {
 
 button {
   margin-top: 0px;
-  margin-bottom: 10px;  /* Added to create space between the button and abstract text */
+  margin-bottom: 10px;  /* Space between the button and surrounding elements */
   border: none;
-  background-color: transparent;  /* Make the background transparent */
-  color: transparent;  /* Set the text color */
+  background-color: transparent;  /* Remove the background color */
+  color: #595959;  /* Set the text color to match your body text */
   border-radius: 0px;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  transition: transform 0.3s ease;  /* Only transform on hover */
   font-family: 'Poppins', sans-serif;  /* Ensure font consistency */
   font-size: 15px;  /* Adjust font size if necessary */
+  text-align: right;  /* Align the text to the right */
+  display: block;  /* Make sure the button takes the full width, allowing text to be right-aligned */
+  padding: 0;  /* Remove any padding */
 }
 
-/* Optionally, you can add a hover effect */
 button:hover {
-  background-color: rgba(0, 0, 0, 0.1);  /* Light background on hover, adjust as needed */
-  transform: scale(1.05);
+  color: black;  /* Change text color on hover */
+  transform: scale(1.05);  /* Slightly enlarge on hover */
 }
-
