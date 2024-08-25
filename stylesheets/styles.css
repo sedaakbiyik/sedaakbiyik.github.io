@@ -378,7 +378,7 @@ mark_old_lavender {
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  color: #595959; /* Use your body text color */
+  color: hwb(202 7% 33%); /* Use your body text color */
   text-align: center;
   padding: 8px 16px;
   text-decoration: none;
@@ -402,12 +402,12 @@ button {
   margin-bottom: 10px;  /* Space between the button and surrounding elements */
   border: none;
   background-color: transparent;  /* Remove the background color */
-  color: #595959;  /* Set the text color to match your body text */
+  color: hwb(202 7% 33%);  /* Set the text color to match your body text */
   border-radius: 0px;
   cursor: pointer;
   transition: transform 0.3s ease;  /* Only transform on hover */
   font-family: 'Poppins', sans-serif;  /* Ensure font consistency */
-  font-size: 15px;  /* Adjust font size if necessary */
+  font-size: 18px;  /* Adjust font size if necessary */
   text-align: right;  /* Align the text to the right */
   display: block;  /* Make sure the button takes the full width, allowing text to be right-aligned */
   padding: 0;  /* Remove any padding */
