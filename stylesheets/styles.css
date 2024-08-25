@@ -396,7 +396,6 @@ mark_old_lavender {
 }
 
 button {
-  padding: 14px 8px;
   margin-top: 0px;
   margin-bottom: 10px;  /* Added to create space between the button and abstract text */
   border: none;
@@ -406,7 +405,7 @@ button {
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
   font-family: 'Poppins', sans-serif;  /* Ensure font consistency */
-  font-size: 12px;  /* Adjust font size if necessary */
+  font-size: 15px;  /* Adjust font size if necessary */
 }
 
 /* Optionally, you can add a hover effect */
@@ -415,24 +414,3 @@ button:hover {
   transform: scale(1.05);
 }
 
-
-#abstract, #abstract2, #abstract3, #abstract4 {
-  font-family: 'Poppins', sans-serif;  /* Ensure font consistency */
-  font-size: 12px;  /* Adjust font size if necessary */
-  margin-top: 3px;
-  margin-bottom: 10px;  /* Adds space below the abstract */
-  line-height: 1.6;  /* Adjust line height for readability */
-  color: #333;
-  
-
-}
-
-#particles-js {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: -1; /* Send it behind other content */
-  pointer-events: none; /* Prevent particles from interfering with interactions */
-}
