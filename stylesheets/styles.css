@@ -326,7 +326,7 @@ mark_orange {
 mark_turq {
   background-color: hwb(202 7% 33%);
   color: white;
-  box-shadow: 0 0 0 0.5px #ad1445;
+  box-shadow: 0 0 0 0.5px #hwb(202 7% 33%);
 }
 
 mark_red {
@@ -338,7 +338,7 @@ mark_red {
 mark_twitter {
   background-color: hwb(202 7% 33%);
   color: white;
-  box-shadow: 0 0 0 0.5px #ad1445;
+  box-shadow: 0 0 0 0.5px #hwb(202 7% 33%);
 }
 
 mark_light_purple {
@@ -350,13 +350,13 @@ mark_light_purple {
 mark_charcoal {
   background-color: hwb(202 7% 33%);
   color: white;
-  box-shadow: 0 0 0 0.5px #ad1445;
+  box-shadow: 0 0 0 0.5px #hwb(202 7% 33%);
 }
 
 mark_dodger {
   background-color: hwb(202 7% 33%);
   color: white;
-  box-shadow: 0 0 0 0.5px #ad1445;
+  box-shadow: 0 0 0 0.5px #hwb(202 7% 33%);
 }
 
 mark_old_lavender {
