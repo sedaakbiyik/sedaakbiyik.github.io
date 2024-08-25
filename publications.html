@@ -25,6 +25,20 @@
   <meta name="description" content="Seda Karakose-Akbiyik, Ph.D. Candidate at Harvard University, Department of Psychology">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap">
 
+  <script type="text/javascript">
+    function toggleMenu() {
+      var topnav = document.querySelector('.topnav');
+      var menuToggle = document.querySelector('.menu-toggle');
+  
+      if (topnav.style.display === "flex") {
+        topnav.style.display = "none";
+        menuToggle.classList.remove("open");
+      } else {
+        topnav.style.display = "flex";
+        menuToggle.classList.add("open");
+      }
+    }
+  </script>
   <style>
     body {
       font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
@@ -93,7 +107,7 @@
         bottom: 0;
         left: 0;
         width: 100%;
-        background-color: hwb(202 7% 33%);
+        background-color:  hwb(216 20% 78%);
         padding: 10px 0;
       }
       .topnav a {
@@ -106,7 +120,7 @@
           position: fixed;
           top: 10px;
           right: 10px;
-          background-color: hwb(202 7% 33%);
+          background-color:  hwb(216 20% 78%);
           color: white;
           width: 50px; /* Set the width */
           height: 50px; /* Set the height */
