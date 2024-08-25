@@ -374,13 +374,11 @@ mark_old_lavender {
 }
 
 /* Style the links inside the navigation bar */
-.topnav a {
-  float: right;
-  color: #fff;
-  text-align: center;
-  padding: 8px 16px;
-  text-decoration: none;
-  font-size: 17px;
+.topnav {
+  background-color: transparent;
+  overflow: hidden;
+  text-align: right;  /* Align the navigation items to the right */
+  padding-right: 20px; /* Optional: Adjust padding as needed */
 }
 
 /* Change the color of links on hover */
