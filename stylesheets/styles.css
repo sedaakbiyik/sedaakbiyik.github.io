@@ -373,6 +373,7 @@ mark_old_lavender {
   background-color: transparent;
   overflow: hidden;
   text-align: right;  /* Align the navigation items to the right */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;  /* Use system fonts */
   padding-right: 20px; /* Optional: Adjust padding as needed */
 }
 
@@ -382,6 +383,7 @@ mark_old_lavender {
   text-align: center;
   padding: 8px 16px;
   text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;  /* Use system fonts */
   font-size: 20px;
   display: inline-block; /* Make sure links stay in one line */
 }
