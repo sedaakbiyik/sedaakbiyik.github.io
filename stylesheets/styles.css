@@ -367,13 +367,7 @@ mark_old_lavender {
 
 .tab { margin-left: 40px; }
 
-/* Add a white background color to the top navigation */
-.topnav {
-  background-color: hwb(202 7% 33%);
-  overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
+/* Remove background color from the top navigation */
 .topnav {
   background-color: transparent;
   overflow: hidden;
@@ -381,17 +375,27 @@ mark_old_lavender {
   padding-right: 20px; /* Optional: Adjust padding as needed */
 }
 
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: #595959; /* Use your body text color */
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: inline-block; /* Make sure links stay in one line */
+}
+
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #fff;
   color: black;
 }
 
-/* Add a color to the active/current link */
+/* Optional: Change the active/current link */
 .topnav a.active {
-  background-color: #fff;
-  color: black;
+  font-weight: bold; /* Or use another style to highlight the active tab */
 }
+
+
 button {
   padding: 14px 8px;
   margin-top: 0px;
