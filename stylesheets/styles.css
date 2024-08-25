@@ -366,7 +366,7 @@ mark_old_lavender {
   box-shadow: 0 0 0 0.5px #736372;
 }
 
-.tab { margin-left: 100px; }
+.tab { margin-left: 50px; }
 
 /* Remove background color from the top navigation */
 .topnav {
